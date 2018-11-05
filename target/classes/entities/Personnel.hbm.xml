@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 mai 2018 20:54:33 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="entities.Personnel" table="personnel" catalog="employ&#233;">
+        <id name="malte" type="string">
+            <column name="Malte" length="30" />
+            <generator class="assigned" />
+        </id>
+        <property name="prenom" type="string">
+            <column name="Prenom" length="40" not-null="true" />
+        </property>
+        <property name="nom" type="string">
+            <column name="Nom" length="20" not-null="true" />
+        </property>
+        <property name="telephone" type="int">
+            <column name="Telephone" not-null="true" />
+        </property>
+        <property name="login" type="string">
+            <column name="login" length="30" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
