@@ -13,6 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "personnel", catalog = "employé")
 public class Personnel implements java.io.Serializable {
+	//ce ci est commente par sergent
 
 	private String malte;
 	private String prenom;
