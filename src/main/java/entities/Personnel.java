@@ -92,6 +92,7 @@ public class Personnel implements java.io.Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+		this.password ="my_new_password";
 	}
 
 }
