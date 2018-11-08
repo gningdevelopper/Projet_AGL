@@ -17,6 +17,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 
 import entities.Personnel;
+//deuxieme modification effectuer par ousseynou
 
 /**
  * Home object for domain model class Personnel.
