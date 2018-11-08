@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Table(name = "personnel", catalog = "employé")
 public class Personnel implements java.io.Serializable {
 	//ce ci est commente par sergent
+	//ce ci est une deuxieme commit de sergent
 
 	private String malte;
 	private String prenom;
