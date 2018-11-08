@@ -9,6 +9,7 @@ import javax.faces.context.FacesContext;
 
 import entities.Personnel;
 import modele.PersonnelHome;
+//troisieme comit de ousseynou
 
 @ManagedBean(name="connexionBean")
 @SessionScoped
