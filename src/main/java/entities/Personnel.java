@@ -15,6 +15,7 @@ import javax.persistence.Table;
 public class Personnel implements java.io.Serializable {
 	//ce ci est commente par sergent
 	//ce ci est une deuxieme commit de sergent
+	//ce ci est une troisieme commit de sergent
 
 	private String malte;
 	private String prenom;
